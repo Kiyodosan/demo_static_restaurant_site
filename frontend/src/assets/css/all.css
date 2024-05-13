@@ -1,0 +1,35 @@
+:root {
+  --primary-color: white;
+  --primary-color-active: rgba(128,0,128,1);
+  --secondary-color: rgba(128,128,128,1);
+  --bg-color: rgba(0,0,0,0.85);
+
+  --btn-color: rgba(255,165,0,1);
+  --btn-color-hover: rgba(255,99,71,0.5);
+
+  --header-font: arial;
+  --p-font: courier;
+
+  --header-size: 4rem;
+  --p-font-size: 1rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.content-center {
+  justify-content: center;
+}
+
+.content-between {
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.bg-black {
+  background-color: var(--bg-color);
+}

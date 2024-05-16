@@ -1,4 +1,4 @@
-export const aboutUsData = [
+export const foodData = [
   {
     id: 0,
     title: 'test title',
@@ -16,5 +16,5 @@ export const aboutUsData = [
     title: 'test title 2',
     description: 'test description 2',
     img: 'https://placehold.co/500x500'
-  } */
+  }, */
 ]

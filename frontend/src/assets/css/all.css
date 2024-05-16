@@ -33,3 +33,7 @@
 .bg-black {
   background-color: var(--bg-color);
 }
+
+@media screen {
+  
+}

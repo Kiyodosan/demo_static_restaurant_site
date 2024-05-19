@@ -1,7 +1,7 @@
 import '../assets/css/all.css'
 
 import React from 'react'
-import Hero_Section from '../components/Hero_Section'
+import Hero_Section from '../components/hero_section'
 
 import Card_About_Us from '../components/Card_About_Us'
 import Card_Quote from '../components/Card_Quote'

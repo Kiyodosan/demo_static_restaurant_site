@@ -3,7 +3,7 @@ import '../assets/css/card_food.css'
 import React from 'react'
 
 //// Need to integrate data prop into card info
-const card_food = ({data}) => {
+const Card_Food = ({data}) => {
   return (
     <div className="card_food_container">
       <div className="card">
@@ -23,4 +23,4 @@ const card_food = ({data}) => {
   )
 }
 
-export default card_food
+export default Card_Food

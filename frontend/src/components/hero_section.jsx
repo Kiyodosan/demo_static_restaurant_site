@@ -1,9 +1,9 @@
 import React from 'react'
 
-const hero_section = () => {
+const Hero_Section = () => {
   return (
     <div>hero_section</div>
   )
 }
 
-export default hero_section
+export default Hero_Section

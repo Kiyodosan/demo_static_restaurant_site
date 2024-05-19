@@ -1,6 +1,6 @@
 import React from 'react'
 
-const card_about_us = ({data}) => {
+const Card_About_Us = ({data}) => {
   const title = data.title;
   const description = data.description;
   const img = data.img;
@@ -14,4 +14,4 @@ const card_about_us = ({data}) => {
   )
 }
 
-export default card_about_us
+export default Card_About_Us

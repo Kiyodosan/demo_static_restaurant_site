@@ -2,7 +2,7 @@ import '../assets/css/card_quote.css'
 
 import React from 'react'
 
-const card_quote = ({data}) => {
+const Card_Quote = ({data}) => {
   const img = data?.img;
   const quote = data.quote;
   const name = data.name;
@@ -26,4 +26,4 @@ const card_quote = ({data}) => {
   )
 }
 
-export default card_quote
+export default Card_Quote

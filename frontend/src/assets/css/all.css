@@ -33,3 +33,21 @@
 .bg-black {
   background-color: var(--bg-color);
 }
+
+@media (min-width: 340px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 960px;
+  }
+}

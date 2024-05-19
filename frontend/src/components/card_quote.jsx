@@ -1,4 +1,4 @@
-import '../assets/css/card_quote'
+import '../assets/css/card_quote.css'
 
 import React from 'react'
 

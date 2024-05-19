@@ -1,39 +1,39 @@
-import '..assets/css/all.css';
+import '../assets/css/all.css'
 
 import React from 'react'
-import hero_section from '../components/hero_section'
+import Hero_Section from '../components/Hero_Section'
 
-import card_about_us from '../components/card_about_us'
-import card_quote from '../components/card_quote'
-import card_food from '../components/card_food'
+import Card_About_Us from '../components/Card_About_Us'
+import Card_Quote from '../components/Card_Quote'
+import Card_Food from '../components/Card_Food'
 
 //// Test data for rendering multiple components
-import { aboutUsData } from '../utils/about_us_data'
+import { aboutUsData } from '../utils/test_about_us_data'
 import { quoteData } from '../utils/test_quote_data'
-import { foodData } from '../utils/food_data'
+import { foodData } from '../utils/test_food_data'
 
 const Home = () => {
   return (
     <div className="bg-black">
       <section>
-        <hero_section />
+        <Hero_Section />
       </section>
 
       <section>
         {aboutUsData.map((data) => (
-          <card_about_us key={data.id} data={data} />
+          <Card_About_Us key={data.id} data={data} />
         ))}
       </section>
 
       <section>
         {quoteData.map((data) => (
-          <card_quote key={data.id} data={data} />
+          <Card_Quote key={data.id} data={data} />
         ))}
       </section>
 
       <section>
         {foodData.map((data) => (
-          <card_food key={data.id} data={data} />
+          <Card_Food key={data.id} data={data} />
         ))}
       </section>
 

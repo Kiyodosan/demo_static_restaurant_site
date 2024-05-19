@@ -1,4 +1,4 @@
-import '../assets/css/card_food'
+import '../assets/css/card_food.css'
 
 import React from 'react'
 

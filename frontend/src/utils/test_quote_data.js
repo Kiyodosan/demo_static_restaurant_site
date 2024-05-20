@@ -2,8 +2,8 @@ export const quoteData = [
   {
     id: 0,
     name: 'test name',
-    quote: 'test quote',
-    img: 'https://placehold.co/600x400'
+    quote: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae magni nobis earum ut excepturi ab harum distinctio qui fuga facilis.',
+    img: 'https://placehold.co/90x100'
   },
 /*   {
     id: 1,

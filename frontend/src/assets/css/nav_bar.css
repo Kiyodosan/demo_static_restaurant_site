@@ -1,0 +1,27 @@
+.header {
+  width: 100%;
+  z-index: 1000;
+  /* position: fixed; */
+  background: #000;
+}
+
+/* header {
+  display: block;
+} */
+
+.header-col {
+  flex: 1 0;
+}
+
+.no-bullets {
+  list-style-type: none;
+}
+
+.header_menu {
+  flex-direction: row;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}

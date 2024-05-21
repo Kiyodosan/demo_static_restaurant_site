@@ -8,7 +8,7 @@ const Card_Food = ({data}) => {
     <div className="card_food_container">
       <div className="card">
         <div className="card-image">
-          <img src="https://via.placeholder.com/300x200" alt="Delicious Food" />
+          <img src="https://placehold.co/500x500" alt="Delicious Food" />
         </div>
         <div className="card-content">
           <h2>Delicious Pizza</h2>

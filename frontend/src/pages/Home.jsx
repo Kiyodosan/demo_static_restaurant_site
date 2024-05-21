@@ -14,7 +14,7 @@ import { foodData } from '../utils/test_food_data'
 
 const Home = () => {
   return (
-    <div className="bg-black">
+    <div className="flex flex-col bg-black">
       <section>
         <Hero_Section />
       </section>
@@ -37,9 +37,9 @@ const Home = () => {
         ))}
       </section>
 
-      <section>Restaurant locations</section>
+{/*       <section>Restaurant locations</section>
 
-      <section>Contact Us card</section>
+      <section>Contact Us card</section> */}
     </div>
   )
 }

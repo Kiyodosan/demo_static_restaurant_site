@@ -1,4 +1,4 @@
-import './assets/css/App.css'
+// import './assets/css/App.css'
 
 import NavBar from './header/navbar'
 import Footer_Menu from './footer/footer_menu'

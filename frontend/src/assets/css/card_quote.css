@@ -1,3 +1,7 @@
 .quote-border-left {
   border-left: 0.25rem solid gold;
 }
+
+.py-quote-name {
+  padding: 2rem 0 1rem 0;
+}

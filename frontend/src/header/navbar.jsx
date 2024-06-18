@@ -15,8 +15,8 @@ const NavBar = () => {
 
           <div>
             <p className='home-page'>Gordon Ramsay Restaurants</p>
-            <a href='#' className='block py-1'>
-              <span>
+            <a href='#' className='header-logo block py-1'>
+              <span className='visually-hidden'>
                 Hell's Kitchen
               </span>
             </a>

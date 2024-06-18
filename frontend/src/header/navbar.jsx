@@ -14,7 +14,7 @@ const NavBar = () => {
         <div className='flex content-between'>
 
           <div>
-            <p className='home-page'>Gordon Ramsay Restaurants</p>
+            <p className='home-page'>{"< Gordon Ramsay Restaurants"}</p>
             <a href='#' className='header-logo block py-1'>
               <span className='visually-hidden'>
                 Hell's Kitchen
@@ -25,7 +25,7 @@ const NavBar = () => {
           <div className='flex flex-wrap py-1'>
             <ul className='nav-items flex flex-wrap no-bullets'>
               <li>
-                <a className='color-white'>Venues</a>
+                <a>Venues</a>
               </li>
               <li>
                 <a>Menus</a>

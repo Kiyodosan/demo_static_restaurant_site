@@ -12,6 +12,7 @@
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
+  color: #fff
 }
 
 .header-logo {
@@ -40,12 +41,7 @@
 }
 
 .nav-items li a {
-  color: white;
-}
-
-
-.color-white {
-  color: white;
+  color: #fff;
 }
 
 .visually-hidden {

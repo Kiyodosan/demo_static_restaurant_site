@@ -1,27 +1,55 @@
 .header {
+  display: absolute;
   width: 100%;
   z-index: 1000;
-  /* position: fixed; */
+  position: fixed;
   background: #000;
+  padding: 15px 100px;
 }
 
-/* header {
-  display: block;
-} */
+.home-page {
+  font-family: Futura, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
 
-.header-col {
-  flex: 1 0;
+.book-button {
+  margin-top: 6px;
+  margin-left: 5px;
+}
+
+.block {
+  display: block;
 }
 
 .no-bullets {
   list-style-type: none;
 }
 
-.header_menu {
-  flex-direction: row;
+.nav-items {
+  gap: 2em;
+  padding-right: 2em;
+  padding-top: 12px;
 }
 
-.flex-row {
-  display: flex;
-  flex-direction: row;
+.nav-items li a {
+  color: white;
+}
+
+
+.color-white {
+  color: white;
+}
+
+.border-red {
+  border: red solid 3px;
+}
+
+.border-blue {
+  border: blue solid 3px;
+}
+
+.border-green {
+  border: green solid 3px;
 }

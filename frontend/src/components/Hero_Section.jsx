@@ -2,7 +2,9 @@ import React from 'react'
 
 const Hero_Section = () => {
   return (
-    <div>Hero_Section</div>
+    <div >
+      <img src="https://placehold.co/3440x1440" alt="hero banner" />
+    </div>
   )
 }
 

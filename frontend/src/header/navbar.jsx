@@ -2,6 +2,8 @@ import '../assets/css/index.css'
 import '../assets/css/nav_bar.css'
 import React from 'react'
 import { useState } from 'react-dom'
+import OpenModalButton from '../components/Open_Modal_Button'
+import Booking from '../pages/Booking'
 
 
 const NavBar = () => {
@@ -36,9 +38,10 @@ const NavBar = () => {
             <div className='header_book'>
               <ul className='no-bullets'>
                 <li>
-                  <a>
-                    <span>Book</span>
-                  </a>
+                  <OpenModalButton 
+                  buttonText="Bookings"
+                  modalComponent={<Booking />}
+                  />
                 </li>
               </ul>
             </div>

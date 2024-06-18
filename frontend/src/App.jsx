@@ -3,6 +3,8 @@
 import NavBar from './header/navbar'
 import Footer_Menu from './footer/footer_menu'
 import Home from './pages/Home'
+import Menu from './pages/Menu'
+import Contact from './pages/Contact'
 import { useState, useEffect } from 'react'
 import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom'
 
@@ -29,6 +31,14 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home />
+      },
+      {
+        path: '/Menu',
+        element: <Menu />
+      },
+      {
+        path: '/Contact',
+        element: <Contact />
       }
     ]
   }

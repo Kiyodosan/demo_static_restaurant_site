@@ -16,9 +16,6 @@ const NavBar = () => {
           <div>
             <p className='home-page'>{"< Home"}</p>
             <a href='#' className='header-logo block py-1'>
-              {/* <span className='visually-hidden'>
-                Hell's Kitchen
-              </span> */}
             </a>
           </div>
 

@@ -1,72 +1,30 @@
 import React from 'react'
+import { FaSquareFacebook } from "react-icons/fa6";
+import { FaSquareInstagram } from "react-icons/fa6";
+import '../assets/css/index.css'
+import '../assets/css/footer.css'
 
 const Footer_Menu = () => {
   return (
     <div>
 
-      <div className='footer_socials'>
-        <div>
-          <ul>
-            <li>
-              <a>Facebook</a>
-            </li>
-            <li>
-              <a>Instagram</a>
-            </li>
+      <footer>
+        <div className='top-row flex content-between'>
+          <ul className='footer-top flex no-bullets'>
+            <li>Sign Up</li>
+            <li>Careers</li>
+            <li>FAQS</li>
+            <li>About</li>
+            <li>Contact</li>
           </ul>
-
-        </div>
-      </div>
-
-      <div className='footer_menu'>
-        <div className='footer_menu_left'>
-          <ul>
-            <li>
-              <a>Sign up</a>
-            </li>
-            <li>
-              <a>Careers</a>
-            </li>
-            <li>
-              <a>Faqs</a>
-            </li>
-            <li>
-              <a>About</a>
-            </li>
-            <li>
-              <a>Contact</a>
-            </li>
+          <ul className='footer-socials flex no-bullets'>
+            <li><FaSquareFacebook /></li>
+            <li><FaSquareInstagram /></li>
           </ul>
         </div>
+      </footer>
 
-        <div className='footer_menu_right'>
-          <ul>
-            <li>
-              <a>Accessibility</a>
-            </li>
-            <li>
-              <a>Privacy Policy</a>
-            </li>
-            <li>
-              <a>Cookie Policy</a>
-            </li>
-            <li>
-              <a>Terms & Conditions</a>
-            </li>
-          </ul>
-        </div>
-
-        <div className='footer_absolute'>
-          <span>
-            "Gordon Ramsay Restaurants @Copyright "
-            "2024"
-          </span>
-          <a href='#'>Gordonramsayrestaurants.com</a>
-        </div>
-
-      </div>
-
-    </div>
+    </div >
   )
 }
 

@@ -1,0 +1,19 @@
+.block {
+  display: block;
+}
+
+.no-bullets {
+  list-style-type: none;
+}
+
+.border-red {
+  border: red solid 3px;
+}
+
+.border-blue {
+  border: blue solid 3px;
+}
+
+.border-green {
+  border: green solid 3px;
+}

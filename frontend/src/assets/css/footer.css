@@ -6,6 +6,18 @@
   list-style-type: none;
 }
 
+.top-row {
+  padding: 1em 5em 1em 2em;
+}
+
+.footer-top {
+  gap: 2.5em
+}
+
+.footer-socials {
+  gap: 2.5em
+}
+
 .border-red {
   border: red solid 3px;
 }

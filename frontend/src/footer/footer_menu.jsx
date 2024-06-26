@@ -7,7 +7,6 @@ import '../assets/css/footer.css'
 const Footer_Menu = () => {
   return (
     <div>
-
       <footer>
         <div className='top-row flex content-between'>
           <ul className='footer-top flex no-bullets'>
@@ -18,12 +17,25 @@ const Footer_Menu = () => {
             <li>Contact</li>
           </ul>
           <ul className='footer-socials flex no-bullets'>
-            <li><FaSquareFacebook /></li>
-            <li><FaSquareInstagram /></li>
+            <li className='social-fb'><FaSquareFacebook size={30}/></li>
+            <li className='social-ig'><FaSquareInstagram size={30}/></li>
+          </ul>
+        </div>
+
+        <div className='bottom-row flex content-between'>
+          <ul className='footer-bottom flex no-bullets'>
+            <li>Accessibility</li>
+            <li>Privacy Policy</li>
+            <li>Cookie Policy</li>
+            <li>Terms & Condition</li>
+          </ul>
+
+          <ul className='no-bullets'>
+            <li>Copyright 2024</li>
+            <li>restaurant.com</li>
           </ul>
         </div>
       </footer>
-
     </div >
   )
 }

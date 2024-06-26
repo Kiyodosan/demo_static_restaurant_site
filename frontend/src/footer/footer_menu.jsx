@@ -17,22 +17,32 @@ const Footer_Menu = () => {
             <li>Contact</li>
           </ul>
           <ul className='footer-socials flex no-bullets'>
-            <li className='social-fb'><FaSquareFacebook size={30}/></li>
-            <li className='social-ig'><FaSquareInstagram size={30}/></li>
+            <li className='social-fb'>
+              <a>
+                <FaSquareFacebook size={30} />
+              </a>
+            </li>
+            <li className='social-ig'>
+              <a>
+                <FaSquareInstagram size={30} />
+              </a>
+            </li>
           </ul>
         </div>
 
         <div className='bottom-row flex content-between'>
           <ul className='footer-bottom flex no-bullets'>
-            <li>Accessibility</li>
-            <li>Privacy Policy</li>
-            <li>Cookie Policy</li>
-            <li>Terms & Condition</li>
+            <li className='box-right pr-1 pl-1'>Accessibility</li>
+            <li className='box-right pr-1 pl-1'>Privacy Policy</li>
+            <li className='box-right pr-1 pl-1'>Cookie Policy</li>
+            <li className='pl-1'>Terms & Condition</li>
           </ul>
 
-          <ul className='no-bullets'>
+          <ul className='footer-absolute no-bullets'>
             <li>Copyright 2024</li>
-            <li>restaurant.com</li>
+            <li>
+              <a href='#'>restaurant.com</a>
+            </li>
           </ul>
         </div>
       </footer>

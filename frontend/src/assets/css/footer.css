@@ -1,0 +1,68 @@
+.block {
+  display: block;
+}
+
+.no-bullets {
+  list-style-type: none;
+}
+
+.top-row {
+  padding: 1em 8em 1em 5em;
+}
+
+.footer-top {
+  gap: 2.5em;
+}
+
+.footer-top li a {
+  color: white;
+}
+
+.footer-socials {
+  gap: 2.5em;
+}
+
+.bottom-row {
+  height: 2rem;
+  padding-left: 4rem;
+  padding-top: 0.5rem;
+  margin-bottom: 3rem;
+}
+
+/* .footer-bottom {
+  gap: 2.5em;
+} */
+
+.footer-absolute {
+  padding-right: 8rem;
+}
+
+.box-left {
+  padding-left: 1em;
+  border-left: 2px white solid;
+  height: 18px;
+}
+
+.pl-1 {
+  padding-left: 1rem;
+}
+
+.pr-1 {
+  padding-right: 1rem;
+}
+
+.box-right {
+  border-right: 1px white solid;
+}
+
+.border-red {
+  border: red solid 3px;
+}
+
+.border-blue {
+  border: blue solid 3px;
+}
+
+.border-green {
+  border: green solid 3px;
+}

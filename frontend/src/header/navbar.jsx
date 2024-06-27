@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { useState } from 'react-dom'
 import OpenModalButton from '../components/Open_Modal_Button'
 import Booking from '../pages/Booking'
@@ -14,21 +15,27 @@ const NavBar = () => {
         <div className='flex content-between'>
 
           <div>
-            <p className='home-page'>{"< Home"}</p>
-            <a href='#' className='header-logo block py-1'>
-              {/* <span className='visually-hidden'>
+            {/* <p className='home-page'>{"< Home"}</p> */}
+            <Link to="/">
+              <a className='header-logo block py-1'>
+                {/* <span className='visually-hidden'>
                 Hell's Kitchen
               </span> */}
-            </a>
+              </a>
+            </Link>
           </div>
 
           <div className='flex flex-wrap py-1'>
             <ul className='nav-items flex flex-wrap no-bullets'>
               <li>
-                <a>Venues</a>
+                <Link to="/Locations">
+                  Venues
+                </Link>
               </li>
               <li>
-                <a>Menus</a>
+                <Link to="/Menu">
+                  Menus
+                </Link>
               </li>
               <li>
                 <a>Private Dining</a>

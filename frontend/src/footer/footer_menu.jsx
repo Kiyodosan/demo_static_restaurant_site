@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaSquareInstagram } from "react-icons/fa6";
 import '../assets/css/index.css'
@@ -14,16 +15,21 @@ const Footer_Menu = () => {
             <li>Careers</li>
             <li>FAQS</li>
             <li>About</li>
-            <li>Contact</li>
+
+            <li>
+              <Link to="/Contact">
+                Contact
+              </Link>
+            </li>
           </ul>
           <ul className='footer-socials flex no-bullets'>
             <li className='social-fb'>
-              <a>
+              <a href='#'>
                 <FaSquareFacebook size={30} />
               </a>
             </li>
             <li className='social-ig'>
-              <a>
+              <a href='#'>
                 <FaSquareInstagram size={30} />
               </a>
             </li>

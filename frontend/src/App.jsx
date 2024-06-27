@@ -5,6 +5,8 @@ import Footer_Menu from './footer/footer_menu'
 import Home from './pages/Home'
 import Menu from './pages/Menu'
 import Contact from './pages/Contact'
+import Locations from './pages/Locations'
+
 import { useState, useEffect } from 'react'
 import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom'
 
@@ -39,6 +41,10 @@ const router = createBrowserRouter([
       {
         path: '/Contact',
         element: <Contact />
+      },
+      {
+        path: '/Locations',
+        element: <Locations />
       }
     ]
   }

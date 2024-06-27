@@ -11,8 +11,14 @@ const Maps_API = () => {
   const position = { lat: -180, lng: -180 };
   const [open, setOpen] = useState(false);
 
+  // temp key placement for testing
+  const Google_Maps_API_KEY="AIzaSyD4Vbc_YEXR4i96gXWI2lmMi3Ov6awzo_8"
+
+  // Google Maps API not working on localhost. Might need to try hosting on an actual server
+  // need a backend process to grab API key
   return (
-    <APIProvider apiKey={process.env.Google_Maps_API_KEY}>
+    // <APIProvider apiKey={process.env.Google_Maps_API_KEY}>
+    <APIProvider apiKey={Google_Maps_API_KEY}>
       {/* height is required, but width is not. height must be greater than 0 to show the map */}
       <div style={{ height: "100vh", width: "100%" }}>
         {/* use a mapID from the Google API & Services page to style your map. add the mapID within the Map component, like shown with zoom and center */}
